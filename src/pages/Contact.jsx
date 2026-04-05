@@ -99,22 +99,22 @@ export default function Contact() {
                         <form className="contact-form" onSubmit={handleSubmit}>
                             <div className="form-row">
                                 <div className="form-group">
-                                    <label>Your Name <span>*</span></label>
+                                    <label>Your Name</label>
                                     <input
                                         type="text"
                                         name="name"
-                                        placeholder="John Doe"
+                                        placeholder="Michael Davis"
                                         value={form.name}
                                         onChange={handleChange}
                                         required
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label>Email Address <span>*</span></label>
+                                    <label>Email Address</label>
                                     <input
                                         type="email"
                                         name="email"
-                                        placeholder="you@example.com"
+                                        placeholder="carastore@gmail.com"
                                         value={form.email}
                                         onChange={handleChange}
                                         required
@@ -132,11 +132,11 @@ export default function Contact() {
                                 />
                             </div>
                             <div className="form-group">
-                                <label>Message <span>*</span></label>
+                                <label>Message</label>
                                 <textarea
                                     name="message"
                                     rows={5}
-                                    placeholder="Write your message here..."
+                                    placeholder="Type in your message here..."
                                     value={form.message}
                                     onChange={handleChange}
                                     required
